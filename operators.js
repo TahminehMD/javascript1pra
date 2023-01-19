@@ -30,8 +30,8 @@ a++
 console.log(a);
 
 
-a = parseFloat(prompt("pleas enter a number : ")) // x
-b = parseInt(prompt("pleas enter another number : ")) // y
+// a = parseFloat(prompt("pleas enter a number : ")) // x
+// b = parseInt(prompt("pleas enter another number : ")) // y
 // ...
 // console.log(a); // y
 // console.log(b); // x
@@ -48,3 +48,47 @@ w *= 3
 w %= 3
 w **= 3
 console.log(w);
+
+let c=1
+let d=2
+let tmp;
+
+tmp = c
+c = d
+d = tmp
+
+
+// Compersion Operators
+a = 12
+b = 16
+c = '12'
+
+console.log(a < b);
+console.log(a > b);
+a <= b
+a >= b
+a == b
+a != b
+console.log(a === c);
+console.log(a !== c);
+
+// logical operators
+// && || !
+console.log(a < b && 12 == a); // true && true = true
+console.log(b < a || a != b); // false || false = false
+let t
+console.log(t);
+
+// name of var
+
+let myval = 12;
+let myVal = 13;
+let MyVal = 14;
+
+let myval2 = 19
+let my_val = 20
+
+// let my val;
+// let my-val;
+// let 2myval;
+// let const
