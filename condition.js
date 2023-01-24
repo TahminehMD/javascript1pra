@@ -50,3 +50,28 @@ switch(day){
 // 2400 - 3600 7%
 // 3600 - 4800 10%
 // 4800 14%
+
+let countCartons = parseInt(prompt('enter another number : '))
+let totalPrice= 100*countCartons*6
+if (1200<totalPrice<2400){
+    discount=0.05
+    total=totalPrice * discount
+    console.log(total-totalPrice)
+}else if(2400<totalPrice<3600){
+    discount=0.05
+    total=totalPrice *  discount 
+    console.log(total-totalPrice)
+}else if(3600<totalPrice<4800){
+    discount=0.10
+    total=totalPrice * discount
+    console.log(total-totalPrice)
+}else if(
+    totalPrice>4800){
+    discount=0.14    
+    total= totalPrice *discount
+    console.log(total-totalPrice)
+}
+
+    
+
+
