@@ -40,3 +40,16 @@ for(let i=1; i<1000 ; i++){
 console.log(res);
 
 // 4! = 1 * 2 * 3 * 4
+
+for (let i = 0 ; i < 10; i++){
+    for (let j = 0; j < 10; j++){
+        console.log(`${i} x ${j} = ${i * j}`);
+    }
+}
+
+for( let i=num ;i<999999999; i--){
+    isPrime= num;
+    
+     
+    
+}
